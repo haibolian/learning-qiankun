@@ -7,12 +7,17 @@ registerMicroApps([
     container: '#container',
     activeRule: 'vue'
   },
-  // {
-  //   name: 'm-react',
-  //   entry: '//localhost:8002',
-  //   container: '#container',
-  //   activeRule: 'react'
-  // }
+  {
+    name: 'm-react',
+    entry: '//localhost:8002',
+    container: '#container',
+    activeRule: 'react'
+  }
 ])
 
-start()
+start({
+  sandbox: {
+    // experimentalStyleIsolation: true
+    strictStyleIsolation: true
+  }
+})
