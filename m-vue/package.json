@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "lodash": "^4.17.21",
     "qiankun": "^2.8.4",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1"
@@ -17,7 +18,7 @@
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-service": "^5.0.8",
     "vue-template-compiler": "^2.6.14"
   },
   "browserslist": [
